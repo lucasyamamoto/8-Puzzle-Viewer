@@ -242,10 +242,10 @@ int main(int argc, char *argv[])
 		if(valid) {
 			if(TestSolution(game))
 			{
-				std::cout << "\033[32mTest completed\033[m" << std::endl;
+				std::cout << "\033[32mSuccess\033[m" << std::endl;
 				correct++;
 			} else {
-				std::cout << "\033[34mTest incompleted\033[m" << std::endl;
+				std::cout << "\033[34mFailure\033[m" << std::endl;
 			}
 		}
 	}
